@@ -1,0 +1,99 @@
+.whole {
+  margin-top: 30px;
+  float: left;
+  margin-left:270px; /* Same as the width of the sidenav */
+  background-color:white;
+}
+.main .card-box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 65px;
+  width:420px;
+  border-radius: 10px;
+}
+
+.sidenav h2 {
+  margin-top: 40px;
+  color:white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sidenav {
+  height: 100%;
+  width: 260px;
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right,#09C6F9 , #045DE9);
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidenav .menubutton a {
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+  font-size: 25px;
+  color:white;
+  display: block;
+  text-align: center;
+}
+.sidenav .menubutton{
+  width:200px;
+  height: 50px;
+  margin-left: 25px;
+  vertical-align: bottom;
+  background-color:transparent;
+
+}
+
+.sidenav .menubutton hover {
+  border-color: blue;
+}
+.sidenav .custom-select {
+  margin-top: 25px;
+  margin-left: 25px;
+  font-size: medium;
+}
+
+.sidenav .custom-select select {
+  border-width: 0px;
+  width: 180px;
+}
+
+.whole .guideline-box {
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-right: 65px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 420px;
+}
+.whole .guideline-box ul li {
+  font-size: larger;
+}
+@media only screen and (min-width: 1000px){
+  .whole {
+    margin-top: 50px;
+    float: left;
+    margin-left:270px; /* Same as the width of the sidenav */
+    background-color:white;
+  }
+  .whole .main {
+    display: flex;
+  }
+
+  .whole .main .card-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 20px;
+    width:220px;
+    margin-top: 0px;
+    border-radius: 10px;
+    margin-right: 0px;
+  }
+}
+  
+ 
+
